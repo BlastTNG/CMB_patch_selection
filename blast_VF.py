@@ -119,9 +119,9 @@ def sensitivity_smooth_pix(Sb,SA,Ap):
 """
 #Import all the nside = 512 maps from PySM
 nside=512
-f500='./PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_600p0_512.fits'
-f350='./PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_857p0_512.fits'
-f250='./PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_1199p0_512.fits'
+f500='../../PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_600p0_512.fits'
+f350='../../PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_857p0_512.fits'
+f250='../../PySM_public-master/Output/512_MJySr_cmb_freef_spinn_synch_therm_1199p0_512.fits'
 """
 #Import all the nside = 2048 maps from PySM
 nside=2048  
@@ -131,10 +131,9 @@ npix= hp.nside2npix(nside)
 #print(npix)  #50331648
 pixel_indices = np.arange(npix) #numpy array of integer pixel indices in RING ordering
 
-
-f500='./PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_600p0_2048.fits'
-f350='./PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_857p0_2048.fits'
-f250='./PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_1199p0_2048.fits'
+f500='../../PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_600p0_2048.fits'
+f350='../../PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_857p0_2048.fits'
+f250='../../PySM_public-master/Output/Output/2048_MJySr_cmb_freef_spinn_synch_therm_1199p0_2048.fits'
 
 #----------------------------------------------------------------------------------
 #MAKE SURE THAT ALL PLOTS WITH THE AFMHOT CMAP HAVE A WHITE BACKGROUND
