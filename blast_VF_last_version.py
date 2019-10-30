@@ -4,7 +4,7 @@ Created on Tue Jan 31 21:11:08 2017
 
 @author: nlourie
 
-@author: modified by V.Fanfani
+@author: modified by V. Fanfani
 """
 
 import numpy as np
