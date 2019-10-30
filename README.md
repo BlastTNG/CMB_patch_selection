@@ -1,7 +1,7 @@
 # CMB_patch_selection
 Simulations to select the CMB patches to be observed.
 
-The code "blast_VF_last_version.py" generates the maps and the quality parameters of the patches, in the Blast​visibility area 10 hours.
+The code "blast_VF_last_version.py" generates the maps and the quality parameters of the patches, in the Blast's visibility area 10 hours.
 The metric can be generated both considering patches of size 2x2 degrees, both 5x5 degrees (parameter "patch_size").
 The map resolution is equal to 1.7 arcmin (PySM parameter: nside = 2048).
 
